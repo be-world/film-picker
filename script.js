@@ -51,7 +51,9 @@ const FILMS = {
       name: "Cruella",
       categories: [FILM_CATEGORIES.comedy.value],
       duration: 134,
+      episodes: 1,
       url: null,
+      watched: false,
     },
     {
       name: "Los Aristogatos",
@@ -60,7 +62,9 @@ const FILMS = {
         FILM_CATEGORIES.comedy.value,
       ],
       duration: 78,
+      episodes: 1,
       url: null,
+      watched: false,
     },
   ],
   [FILM_TYPES.SERIES.value]: [
@@ -71,11 +75,10 @@ const FILMS = {
         FILM_CATEGORIES.comedy.value,
         FILM_CATEGORIES.drama.value,
       ],
-      length: {
-        episodes: 16,
-        duration: 35,
-      },
+      episodes: 16,
+      duration: 35,
       url: null,
+      watched: false,
     },
     {
       name: "Avatar",
@@ -85,11 +88,10 @@ const FILMS = {
         FILM_CATEGORIES.animation.value,
         FILM_CATEGORIES.fantasy.value,
       ],
-      length: {
-        episodes: 61,
-        duration: 25,
-      },
+      episodes: 61,
+      duration: 25,
       url: null,
+      watched: false,
     },
   ],
   [FILM_TYPES.OTHER.value]: [
@@ -101,7 +103,9 @@ const FILMS = {
         FILM_CATEGORIES.documentary.value,
       ],
       duration: 160,
+      episodes: 1,
       url: null,
+      watched: false,
     },
     {
       name: "My Octopus Teacher",
@@ -111,7 +115,9 @@ const FILMS = {
         FILM_CATEGORIES.travel.value,
       ],
       duration: 85,
+      episodes: 1,
       url: null,
+      watched: false,
     },
   ],
 };
